@@ -37,10 +37,10 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
         style={CHEVRON_BG}
         className="block w-full min-w-[200px] cursor-pointer appearance-none rounded border border-input bg-popover bg-no-repeat px-3 py-2 pr-8 font-[inherit] text-sm text-foreground hover:border-input-hover focus:border-ring focus:ring-2 focus:ring-ring/25 focus:outline-none"
       >
-        <option value={FilterType.ALL}>All ({items.length})</option>
-        <option value={FilterType.APP}>Apps ({counts.app})</option>
-        <option value={FilterType.SERVICE}>Services ({counts.service})</option>
-        <option value={FilterType.HARDWARE}>Hardware ({counts.hardware})</option>
+        <option value={FilterType.ALL}>🪦 All ({items.length})</option>
+        <option value={FilterType.APP}>📱 Apps ({counts.app})</option>
+        <option value={FilterType.SERVICE}>☁️ Services ({counts.service})</option>
+        <option value={FilterType.HARDWARE}>🖥️ Hardware ({counts.hardware})</option>
       </select>
     </label>
   );
